@@ -1,0 +1,80 @@
+/* ROW 1 */
+
+nav{
+    background-color: #1A5276 ;
+}
+
+ul {
+    --bs-scroll-height: 100px;
+}
+
+.list{
+    background-color: #3498DB;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px; 
+    font-size: 20px;
+}
+
+.list:hover{
+    background-color: white;
+}
+
+#row3{
+    height: 30px;
+    background-color: #1A5276;
+    color: white;
+}
+
+img {
+    height: 60px; 
+    border-radius: 100%;
+}
+
+/* ROW 2 */
+
+.col-3 {
+    height: 10em;
+    margin-top: 40px; 
+    margin-left: 100px;
+    box-shadow:-1px 1px 10px rgb(0, 0, 0);
+}
+
+h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.green {
+    color: rgb(39, 190, 39);
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.rond1 {
+    border: 5px solid rgb(39, 190, 39);;
+        margin: 30px;
+   
+}
+
+.pourcent ::placeholder{
+    /* height: 50px; */
+    text-align: center;
+    color: white;
+}
+
+button.btn-add {
+    height: 100px;
+    width: 100px;
+    margin-left: 45em;
+    margin-top: 100px;
+    border-radius: 200px;
+    background-color: #1A5276;
+
+}
