@@ -1,3 +1,32 @@
+/* GENERAL */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body {
+    background-image: url(images/salle\ codemydream.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+/* .bg-img {
+    background-image: url(images/salle\ codemydream.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* .filter-blur {
+    background: rgba(240, 227, 227, 0.5);
+    backdrop-filter: blur(15px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+
 /* ROW 1 */
 
 nav{
@@ -45,36 +74,48 @@ h4 {
     margin-top: 20px;
 }
 
-.green {
+.taskgreen {
     color: rgb(39, 190, 39);
 }
 
-.orange {
+.taskorange {
     color: orange;
 }
 
-.red {
+.taskred {
     color: red;
 }
 
-.rond1 {
-    border: 5px solid rgb(39, 190, 39);;
-        margin: 30px;
-   
+.fa-circle-check {
+    font-size: 40px;
+    color:rgb(39, 190, 39);
 }
 
-.pourcent ::placeholder{
-    /* height: 50px; */
+.fa-clock {
+    font-size: 40px;
+    color:orange;
+}
+
+.fa-circle-info {
+    font-size: 40px;
+    color: red;
+}
+
+.nbretasks {
     text-align: center;
-    color: white;
+    font-size: 25px;
 }
 
-button.btn-add {
+
+.btn-add {
     height: 100px;
     width: 100px;
     margin-left: 45em;
     margin-top: 100px;
     border-radius: 200px;
     background-color: #1A5276;
+}
 
+.fa-circle-plus {
+    font-size: 95px;
 }
